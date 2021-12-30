@@ -12,3 +12,4 @@ The project showcases basic HTML skills:
 2) Use of hyperlinks and images
 3) Basic formatting skills
 4) Basic skills of working with GIT (edits, staging, commits)
+wefkerhfkehsdfkjhdsk
