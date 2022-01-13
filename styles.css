@@ -1,15 +1,17 @@
 /* Basic background color + Main font of the content, size and text-shadow.  */
 body {
    /* background-color: rgba(238, 166, 12, 0.911); */
-    background-image: url(./img/wood-top6.jpeg);
+    /*background-image: url(./img/wood-top3.jpeg);*/
+    background-color: rgb(255, 248, 235);
     background-size: 100%;
     background-position: center;
     font-family: fantasy, 'Times New Roman', Times, serif;
     font-size: 15px;
+    font-weight: bold;
 }
 
-/* rounded background of yellow mustard color*/
-.roundB {
+/* rounded background of yellow mustard color for title page*/
+.roundT {
     border-radius: 25px;
     background-color: rgb(255, 212, 20);
     background-clip: border-box;
@@ -17,15 +19,25 @@ body {
     width: max-content;
 }
 
+/* rounded background of yellow mustard color for recipes' pages*/
+.roundR {
+    border-radius: 25px;
+    background-color: rgb(255, 212, 20);
+    background-clip: border-box;
+    text-align: center;
+}
+
+/* general formatting for H1 titles */
 h1 {
     font-size: 28px;
     text-align: center;
 }
-/*  style for Title of the Index page  */
+/*  formatting for Title of the Index page  */
 .title_index {
     margin: 35px auto;
 }
 
+/* image formatting for the Index page */
 #recipes_journal {
     margin-top:35px;
 }
@@ -65,9 +77,4 @@ li {
 
 .borderd {
     border: 5px solid rgba(255, 198, 92, 0.925);
-}
-
-.Ingredients{
-    background-color: tomato;
-    font-family: 'Times New Roman', Times, serif;
 }
