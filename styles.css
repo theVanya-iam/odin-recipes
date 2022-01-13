@@ -1,6 +1,9 @@
 /* Basic background color + Main font of the content, size and text-shadow.  */
 body {
-    background-color: rgba(238, 166, 12, 0.911);
+   /* background-color: rgba(238, 166, 12, 0.911); */
+    background-image: url(./img/wood-top6.jpeg);
+    background-size: 100%;
+    background-position: center;
     font-family: fantasy, 'Times New Roman', Times, serif;
     font-size: 15px;
 }
@@ -9,25 +12,36 @@ body {
 .roundB {
     border-radius: 25px;
     background-color: rgb(255, 212, 20);
+    background-clip: border-box;
+    text-align: center;
     width: max-content;
 }
 
 h1 {
     font-size: 28px;
-    margin: 10px auto;
     text-align: center;
+}
+/*  style for Title of the Index page  */
+.title_index {
+    margin: 35px auto;
+}
+
+#recipes_journal {
+    margin-top:35px;
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: fantasy, 'Times New Roman', Times, serif;
     font-size: 15px;
+    font-weight: bold;
     font-style: italic;
     background-color: rgb(255, 212, 20);
-    font-weight: bold;
-    width: max-content;
     border-radius: 25px;
+    width: max-content;
+     
 }
 
+/*  class for centering an image  */
 .centerImg {
     display: block;
     margin-left: auto;
@@ -42,5 +56,18 @@ p {
 
 li {
     margin: 10px auto;
-    text-align: left;
+    text-align: left;  
+}
+
+#list1 {
+    color: transparent;
+}
+
+.borderd {
+    border: 5px solid rgba(255, 198, 92, 0.925);
+}
+
+.Ingredients{
+    background-color: tomato;
+    font-family: 'Times New Roman', Times, serif;
 }
